@@ -1,0 +1,194 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+.back{
+	display: flex;
+	justify-content: space-around;
+}
+.buy{
+	background: blue;
+	padding: 7px 12px;
+	border: none;
+	outline: none;
+	border: 5px 0 0 5px;
+	color: white;
+	font-size: 18px;
+}
+.shop{
+	background: red;
+	padding: 7px 12px;
+	border: none;
+	outline: none;
+	border: 5px 0 0 5px;
+	color: white;
+	font-size: 18px;
+}
+.btn-header{
+	margin-top: 6px;
+}
+.nav-bg{
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+.row-nav{
+	display: flex;
+	justify-content: center;
+}
+.row-nav a{
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	padding: 0.4rem 1.6rem;
+	border-right: 1px solid white;
+}
+.row-nav a:hover{
+	color: white;
+	background: red;
+}
+.form{
+	margin-top: 6px;
+}
+.slider{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 500px;
+	overflow: hidden;
+}
+.hinh{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.show{
+	display: block;
+}
+.hinh:first-child{
+	background: url(../img/nenn.jpg) no-repeat center center/cover;
+}
+.bg-1{
+	background: url(../img/nenn2.jpg);
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+.container-1{
+	width: 80%;
+	margin: auto;
+}
+.row-2{
+	display: flex;
+	justify-content: space-between;
+}
+.box{
+	margin: 25px;
+	border-radius: 3px;
+	background: white;
+	border: 1px grey solid; 
+	text-align: center;
+}
+.box button{
+	background: red;
+	color: white;
+	font-size: 20px;
+	box-shadow: 1px 0 2px white;
+	border: none;
+	border-radius: 3px;
+	padding: 0.2rem 1.2rem;
+}
+.box img:hover{
+	transform: scale(1.1)
+}
+.box img{
+	transition: all 1s;
+}
+.row-4{
+	display: flex;
+	margin-left: 16px;
+/*	position: absolute;*/
+	
+}
+.content-2{
+	flex-grow: 2;
+}
+.content-3{
+	flex-grow: 6;
+}
+.row-5{
+	display: flex
+}
+.content-2-1 a{
+	color: aqua;
+}
+.content-3 h1{
+	color: white;
+}
+.content-2 h1{
+	color: white;
+}
+.row-6{
+	background: black;
+	display: flex;
+	justify-content: space-around;
+}
+.for-1 h1{
+	color: white;
+	font-size: 30px;
+	
+}
+.for-1 span{
+	color: white;
+}
+.go-top {
+    top: 80px;
+    display: block;
+    height: 50px;
+    opacity: 0.8;
+    position: fixed;
+    left: 10px;
+    width: 50px;
+    z-index: 112;
+    float: left;
+    border-radius: 5px;
+}
+.fa-angle-up: {
+    content: "\f106";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.scroll_heading {
+    position: fixed;
+    bottom: 10px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px !important;
+    color: #ff9900;
+    right: 10px;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 999;
+}
